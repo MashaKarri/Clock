@@ -1,0 +1,2 @@
+let e;let t=document.querySelector(".minute-hand"),n=document.querySelector(".second-hand"),r=document.querySelector(".startBtn"),l=document.querySelector(".stopBtn"),c=0,o=0;function a(){let e=c%60*6,r=o%60*6;n.style.transform=`translateX(-50%) rotate(${e}deg)`,t.style.transform=`translateX(-50%) rotate(${r}deg)`,(c+=1)%60==0&&(o+=1)}r.addEventListener("click",function(){e||(e=setInterval(a,1e3))}),l.addEventListener("click",function(){clearInterval(e),e=null});
+//# sourceMappingURL=Clock.93e9e6d6.js.map
