@@ -21,65 +21,78 @@ body {
   height: 100%;
   border: 2px solid #000;
   border-radius: 50%;
-  background-color: rgb(255, 107, 166);
+  background-color: rgb(255, 104, 179);
   margin-top: 20px;
 }
 
 .number {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 30px;
+  height: 30px;
   text-align: center;
   font-size: 22px;
   font-weight: 600;
-}
-
-.number-1 {
-  transform: rotate(30deg);
-}
-
-.number-2 {
-  transform: rotate(60deg);
-}
-
-.number-3 {
-  transform: rotate(90deg);
-}
-
-.number-4 {
-  transform: rotate(120deg);
-}
-
-.number-5 {
-  transform: rotate(150deg);
-}
-
-.number-6 {
-  transform: rotate(180deg);
-}
-
-.number-7 {
-  transform: rotate(210deg);
-}
-
-.number-8 {
-  transform: rotate(240deg);
-}
-
-.number-9 {
-  transform: rotate(270deg);
-}
-
-.number-10 {
-  transform: rotate(300deg);
-}
-
-.number-11 {
-  transform: rotate(330deg);
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
 }
 
 .number-12 {
-  transform: rotate(0deg);
+  transform: translate(-50%, -50%) translateY(-130px);
+}
+
+.number-1 {
+  transform: translate(-50%, -50%) rotate(30deg) translateY(-130px)
+    rotate(-30deg);
+}
+
+.number-2 {
+  transform: translate(-50%, -50%) rotate(60deg) translateY(-130px)
+    rotate(-60deg);
+}
+
+.number-3 {
+  transform: translate(-50%, -50%) rotate(90deg) translateY(-130px)
+    rotate(-90deg);
+}
+
+.number-4 {
+  transform: translate(-50%, -50%) rotate(120deg) translateY(-130px)
+    rotate(-120deg);
+}
+
+.number-5 {
+  transform: translate(-50%, -50%) rotate(150deg) translateY(-130px)
+    rotate(-150deg);
+}
+
+.number-6 {
+  transform: translate(-50%, -50%) translateY(130px);
+}
+
+.number-7 {
+  transform: translate(-50%, -50%) rotate(210deg) translateY(-130px)
+    rotate(-210deg);
+}
+
+.number-8 {
+  transform: translate(-50%, -50%) rotate(240deg) translateY(-130px)
+    rotate(-240deg);
+}
+
+.number-9 {
+  transform: translate(-50%, -50%) rotate(270deg) translateY(-130px)
+    rotate(-270deg);
+}
+
+.number-10 {
+  transform: translate(-50%, -50%) rotate(300deg) translateY(-130px)
+    rotate(-300deg);
+}
+
+.number-11 {
+  transform: translate(-50%, -50%) rotate(330deg) translateY(-130px)
+    rotate(-330deg);
 }
 
 .center-dot {
@@ -104,7 +117,7 @@ body {
 
 .minute-hand {
   width: 4px;
-  height: 100px;
+  height: 90px;
   background-color: #282828;
   transform: translateX(-50%) rotate(0deg);
   z-index: 2;
@@ -112,7 +125,7 @@ body {
 
 .second-hand {
   width: 2px;
-  height: 120px;
+  height: 110px;
   background-color: #282828;
   transform: translateX(-50%) rotate(0deg);
   z-index: 1;
@@ -132,7 +145,7 @@ button {
   border-radius: 5px;
   font-family: "IBM Plex Serif", serif;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
   transition: background 0.3s;
   margin-top: 20px;
 }

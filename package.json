@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/MashaKarri/Clock-project/issues"
   },
-  "homepage": "https://github.com/MashaKarri/Clock-project",
+  "homepage": "https://github.com/MashaKarri/Clock",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.16.1"
