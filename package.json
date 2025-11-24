@@ -1,0 +1,25 @@
+{
+  "name": "clock-project",
+  "version": "1.0.0",
+  "description": "Clock project",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --no-cache --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MashaKarri/Clock-project.git"
+  },
+  "author": "Mariya Dovgalyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MashaKarri/Clock-project/issues"
+  },
+  "homepage": "https://github.com/MashaKarri/Clock-project",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.1"
+  }
+}
